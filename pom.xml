@@ -37,24 +37,29 @@
     </dependency>
 
     <!-- Dependência para a AWS SDK, caso precise acessar outros serviços como S3, DynamoDB, etc. -->
-    <dependency>
-      <groupId>com.amazonaws</groupId>
-      <artifactId>aws-java-sdk-s3</artifactId>
-      <version>1.12.777</version>
-    </dependency>
+    <!-- <dependency>
+       <groupId>com.amazonaws</groupId>
+       <artifactId>aws-java-sdk-s3</artifactId>
+       <version>1.12.777</version>
+     </dependency>
 
-    <dependency>
-      <groupId>com.amazonaws</groupId>
-      <artifactId>aws-java-sdk-core</artifactId>
-      <version>1.12.777</version>
-    </dependency>
-
-    <dependency>
-      <groupId>software.amazon.awssdk</groupId>
-      <artifactId>s3</artifactId>
-      <version>2.20.2</version>
-    </dependency>
-    <!-- Dependência para o pacote de logging (necessário para a execução da Lambda) -->
+     <dependency>
+       <groupId>com.amazonaws</groupId>
+       <artifactId>aws-java-sdk-core</artifactId>
+       <version>1.12.777</version>
+     </dependency>
+ -->
+     <dependency>
+       <groupId>org.apache.httpcomponents</groupId>
+       <artifactId>httpclient</artifactId>
+       <version>4.5.13</version>
+     </dependency>
+     <dependency>
+       <groupId>software.amazon.awssdk</groupId>
+       <artifactId>s3</artifactId>
+       <version>2.20.2</version>
+     </dependency>
+     <!-- Dependência para o pacote de logging (necessário para a execução da Lambda) -->
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-api</artifactId>
